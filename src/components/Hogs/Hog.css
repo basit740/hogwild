@@ -1,0 +1,36 @@
+.hog {
+	border: 1px solid black;
+	background-color: rgb(233, 109, 27);
+	color: white;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+	opacity: 0.8;
+	position: relative;
+}
+.hog:hover {
+	opacity: 1;
+}
+
+.hog img {
+	width: 100px;
+	height: 100px;
+}
+.hide-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 80px;
+	height: 20px;
+	background-color: red;
+	color: white;
+}
+.show-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 80px;
+	height: 20px;
+	background-color: green;
+	color: white;
+}
